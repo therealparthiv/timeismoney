@@ -9,9 +9,6 @@ This project is an Automated Timetable Generator using the MERN stack (MongoDB, 
 3. [Available Scripts](#available-scripts)
 4. [Usage](#usage)
 5. [Technologies Used](#technologies-used)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Links](#links)
 
 ## Getting Started
 
@@ -27,46 +24,45 @@ Follow these steps to set up and run the project locally.
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/yourusername/Automatic-Timetable-Generator.git
-    ```
+   ```bash
+   git clone https://github.com/therealparthiv/timeismoney
+   ```
 
 2. Navigate to the project folder:
 
-    ```bash
-    cd Automatic-Timetable-Generator
-    ```
+   ```bash
+   cd Timetable-allot
+   ```
 
 3. Navigate to the client folder:
 
-    ```bash
-    cd client
-    ```
+   ```bash
+   cd client
+   ```
 
 4. Install the frontend dependencies:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 5. Navigate to the server folder:
 
-    ```bash
-    cd ../server
-    ```
+   ```bash
+   cd ../server
+   ```
 
 6. Install the backend dependencies:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 ## Folder Structure
 
 ```plaintext
 Automatic-Timetable-Generator/  # Project root
 ├── client/                      # Frontend (React) application
-│   ├── .vercel/                 # Vercel deployment configuration
 │   ├── build/                   # Build output directory
 │   ├── node_modules/            # Node.js packages
 │   ├── public/                  # Static files (images, etc.)
@@ -83,17 +79,19 @@ Automatic-Timetable-Generator/  # Project root
     ├── package-lock.json        # npm lock file for dependencies
     └── package.json             # Project metadata and dependencies
 ```
+
 # Usage
 
 To run the development servers for both frontend and backend, use the following commands:
-```
+
+````
 
 1. For the server (backend):
 
 ```bash
 cd server
 npm run start
-```
+````
 
 2. For the client (frontend):
 
@@ -101,6 +99,7 @@ npm run start
 cd ../client
 npm run start
 ```
+
 Open http://localhost:3000 to view the frontend in your browser.
 
 ## Technologies Used
@@ -109,25 +108,3 @@ Open http://localhost:3000 to view the frontend in your browser.
 - Express - Web framework for Node.js to build the backend API.
 - React - A JavaScript library for building user interfaces.
 - Node.js - JavaScript runtime for server-side development.
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-
-2. Create a new feature branch (**`git checkout -b feature/your-feature`**).
-
-3. Commit your changes (**`git commit -m 'Add new feature'`**).
-
-4. Push to the branch (**`git push origin feature/your-feature`**).
-
-5. Open a pull request.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-# Links
-
-- Live site: [Scheduler](https://automatic-timetable-generator.vercel.app/) 
